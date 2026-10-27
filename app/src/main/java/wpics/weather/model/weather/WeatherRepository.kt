@@ -1,8 +1,6 @@
 // Margo Segui (msegui@wpi.edu)
 package wpics.weather.model.weather
 
-import com.google.android.gms.common.api.internal.ApiKey
-
 open class WeatherRepository(
     private val apiKey: String,
     private val api: WeatherAPI = RetrofitProvider.api

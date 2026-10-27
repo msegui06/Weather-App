@@ -7,7 +7,7 @@ package wpics.weather.model.weather
  * API Call: api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
  */
 data class ForecastResponse(
-    val list: ForecastList? = null,
+    val list: List<ForecastList>? = null,
     val city: City? = null
 )
 
